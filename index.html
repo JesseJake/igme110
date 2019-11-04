@@ -4,22 +4,69 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Website Practice 1</title>
-    <link href="https://fonts.googleapis.com/css?family=Titillium+Web&display=swap" rel="stylesheet">
+    <title>Pokémon Controversies</title>
+    <link href="https://fonts.googleapis.com/css?family=Saira+Condensed|Shadows+Into+Light|ZCOOL+XiaoWei&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 
+<!--Create a landing page which links to itself, the two content pages, and the credits through navigation bar.
+    Requirements: descriptive title, an image, brief overview of content, name, validates, typography.--> 
+
 <body>
-    <h1>Here is a cat.</h1>
+    <div id = "wrapper">
+    <div id = "grid">
 
-    <img src="images/cat.jpg" alt="cat"> 
-    <p>
-        Some filler main body text in order to <strong>example</strong> what it would look like.
-    </p>
-    <p>    
-        <a href = "more/index.html">Check out the other page here.</a>
-    </p>
+    <nav>
+        <ul>
+            <li><a href ="index.html">HOME</a></li>
+            <li><a href="more/genv.html">GEN V</a></li>
+            <li><a href="more/genviii.html">GEN VIII</a></li>
+            <li><a href= "more/credits.html">CREDITS</a></li>
+        </ul>
+    </nav>
 
+    <header>
+        <h1>Controversies With Pokémon Game Releases</h1>
+    </header>
+
+    <section id = "image1">
+        <img src="images/zorua.png" alt="the Pokémon Wooloo"> 
+    </section>
+    <section id ="image2">
+        <img src="images/wooloo.png" alt="the Pokémon Wooloo"> 
+    </section>
+
+    <section id = "top">
+        <p>
+            Pokémon is a beloved franchise for many, having started in 1996 by Satoshi Tajiri with inspiration from his 
+            childhood. He "wanted to capture his own experience of exploring the rice fields and rivers of his childhood 
+            town to collect insects." (<a href ="more/credits.html">Keough, 2016</a>). From then on, the series captured many's hearts and achieved worldwide recognition. 
+            However, the franchise has encountered a fair number of controversies in it's long-standing popularity, from 
+            problematic visuals in TV show episodes to abuse of copyrights. 
+        </p>
+    </section>
+
+    <section id = "bottom">
+        <p>
+            This website aims to focus on two specific controversies that accompanied the release of new Pokémon games. 
+            From the controversial choices Pokemon Black and White (Gen V) made, and the recent criticism surrounding 
+            Pokémon Sword and Shield (Gen VIII) soon to release November 15th. This website sums up the reasons for fan 
+            criticism and rocky releases for the successful company.
+        </p>
+    </section>
+
+    <footer>
+        <p>
+            I do <strong>not</strong> own nor claim to own the Pokémon franchise. All rights respectively go to The Pokémon Company 
+            and other rightful owners. Please see credits <a href = "more/credits.html"><strong>here.</strong></a>
+        </p>
+        <p>
+            This website was created by <i>Jesse Jacobs.</i> 
+        </p>
+    </footer>
+
+    </div> <!--end of grid-->
+    </div> <!--end of wrapper-->
 </body>
 
 </html>
